@@ -41,7 +41,9 @@ const sampleVideos = [
 // ================== Hero Section ==================
 const Hero = () => {
   const images = [
-   "https://wpvip.edutopia.org/wp-content/uploads/2022/10/hero-blog-technology-integration-preschool-photo-istock-1389944291-PeopleImages.jpg","https://imgeng.jagran.com/images/2023/aug/Edtech20231692191712768.jpg","https://media.carnegie.org/filer_public/3a/21/3a212837-842b-453d-afaa-6d01d753e1b1/three-questions-about-edtech-to-ask-your-kids-teacher-and-action-steps-to-take-now-c28f5c981ef1_-_1.jpeg",
+   "https://wpvip.edutopia.org/wp-content/uploads/2022/10/hero-blog-technology-integration-preschool-photo-istock-1389944291-PeopleImages.jpg",
+   "https://imgeng.jagran.com/images/2023/aug/Edtech20231692191712768.jpg",
+   "https://media.carnegie.org/filer_public/3a/21/3a212837-842b-453d-afaa-6d01d753e1b1/three-questions-about-edtech-to-ask-your-kids-teacher-and-action-steps-to-take-now-c28f5c981ef1_-_1.jpeg",
   ];
   const [current, setCurrent] = useState(0);
 

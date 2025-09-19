@@ -10,5 +10,13 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+      <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://renuka143.app.n8n.cloud/webhook/b2e60841-207b-4c96-bf18-6da27d20fd40/chat'
+	});
+</script>
   </body>
 </html>
